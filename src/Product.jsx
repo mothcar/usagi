@@ -22,7 +22,7 @@ export default function Product() {
         <li>search : {location.search}</li>
         <li>state : {location.state}</li>
         <li>key : {location.key}</li>
-        <li>keyWords : {keyWords}</li>
+        {/* <li key={keyWords}>keyWords : {keyWords}</li> */}
         <li>keyWord : {keyWord}</li>
         <li><button onClick={() => navigate('/', {replace: true})}>Go Root</button></li>
         
